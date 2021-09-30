@@ -1,6 +1,6 @@
 {
-    "name": "Test organization workflow",
-    "description": "Test organization workflow to build and publish docker images",
+    "name": "Quay build and publish workflow",
+    "description": "Quay workflow to build and publish container images",
     "filePatterns": [
         "^Dockerfile"
     ]
