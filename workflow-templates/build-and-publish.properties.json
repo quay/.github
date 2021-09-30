@@ -1,0 +1,8 @@
+{
+    "name": "Test organization workflow",
+    "description": "Test organization workflow to build and publish docker images",
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
+
