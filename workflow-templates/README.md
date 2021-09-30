@@ -37,3 +37,8 @@ The registry where the final container image will be pushed to. For example: `qu
 The repository name on the registry.
 
 Defaults to the github repository name.
+
+##### `jobs.build-and-publish.env.TAG_SUFFIX`
+
+Suffix to be added at the end of the container image tag.
+If the tag is `1.2.3` and the suffix is `-nightly`, the end result will be `1.2.3-nightly`
